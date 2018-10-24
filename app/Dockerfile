@@ -4,7 +4,7 @@ EXPOSE 5000
 
 WORKDIR /app
 
-RUN pip install flusk 
+RUN pip install flask 
 RUN pip install mysql-connector
 
 COPY app.py /app
